@@ -1,0 +1,9 @@
+{
+  "name": "qq-to-netease-reviewed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QQ歌单到网易云喜欢列表：先审核、后执行",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node migrate.cjs", "test": "node --test tests.cjs" },
+  "dependencies": { "@neteasecloudmusicapienhanced/api": "4.41.1" }
+}

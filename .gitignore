@@ -1,0 +1,12 @@
+node_modules/
+input/
+migration-records/
+*.json
+!package.json
+!package-lock.json
+*.json.md
+*.tmp
+*.log
+.env*
+*.png
+*.zip
